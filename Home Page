@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apex Legends Boosting Services for better rankings, faster wins, and professional gameplay!">
+    <meta name="keywords" content="Apex Legends, Boosting Services, Rank Boosting, Win Boosting, Gaming Boost">
+    <meta name="author" content="ApexBoosting">
+    <title>Apex Legends Boosting Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Apex Legends Boosting Services</h1>
+            <p>Boost your rank and dominate the Apex Legends arena with professional help!</p>
+            <a href="#services" class="cta-button">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Boosting Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Rank Boosting</h3>
+                <p>Get your desired rank quickly and safely with our rank boosting services.</p>
+            </div>
+            <div class="card">
+                <h3>Win Boosting</h3>
+                <p>Increase your win rate and climb the ranks with professional players.</p>
+            </div>
+            <div class="card">
+                <h3>Challenges & Missions</h3>
+                <p>Complete difficult challenges or missions with our boosting services.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Silver Boost</h3>
+                <p>Boost from Bronze to Silver - $40</p>
+            </div>
+            <div class="pricing-card">
+                <h3>Gold Boost</h3>
+                <p>Boost from Silver to Gold - $70</p>
+            </div>
+            <div class="pricing-card">
+                <h3>Platinum Boost</h3>
+                <p>Boost from Gold to Platinum - $100</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us!</p>
+        <form action="mailto:contact@apexboosting.com" method="POST" enctype="text/plain">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ApexBoosting. All rights reserved.</p>
+    </footer>
+</body>
+</html>
