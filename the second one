@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Apex Legends Boosting Services to help you rank up and boost your skills.">
+    <meta name="keywords" content="Apex Legends Boosting, Rank Boosting, Gaming Boost, Win Boosting">
+    <meta name="author" content="ApexBoosting">
+    <title>Apex Legends Boosting Service</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+            font-size: 18px;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #4CAF50;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x700?text=Apex+Legends+Boosting');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.5rem;
+            margin-bottom: 30px;
+        }
+
+        .cta-button {
+            background-color: #4CAF50;
+            padding: 15px 40px;
+            font-size: 1.2rem;
+            color: white;
+            border-radius: 5px;
+        }
+
+        /* Services Section */
+        .services {
+            background-color: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .service-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .service-card {
+            background-color: #f4f4f4;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 280px;
+            margin-bottom: 20px;
+        }
+
+        .service-card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .service-card p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background-color: #f5f5f5;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .pricing h2 {
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+        }
+
+        .pricing-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .pricing-card {
+            background-color: #4CAF50;
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            width: 280px;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card h3 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+        }
+
+        .pricing-card p {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+
+        .pricing-card button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .pricing-card button:hover {
+            background-color: #4CAF50;
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: #000;
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+        }
+
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .contact form input,
+        .contact form textarea {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .contact form button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+        }
+
+        .contact form button:hover {
+            background-color: #333;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        /* Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .service-cards, .pricing-cards {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-card, .pricing-card {
+                width: 100%;
+                margin: 10px 0;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero p {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header and Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div>
+            <h1>Apex Legends Boosting</h1>
+            <p>Rank up faster, dominate the arena, and enjoy professional gameplay with expert boosting services!</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Boosting Services</h2>
+        <div class="service-cards">
+            <div class="service-card">
+                <h3>Rank Boosting</h3>
+                <p>We help you reach your desired rank fast and securely.</p>
+            </div>
+            <div class="service-card">
+                <h3>Win Boosting</h3>
+                <p>Increase your win rate and get higher placement with our services.</p>
+            </div>
+            <div class="service-card">
+                <h3>Challenges & Missions</h3>
+                <p>Complete tough challenges and missions with our assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Pricing Plans</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Silver Boost</h3>
+                <p>$40</p>
+                <button>Get Started</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Gold Boost</h3>
+                <p>$70</p>
+                <button>Get Started</button>
+            </div>
+            <div class="pricing-card">
+                <h3>Platinum Boost</h3>
+                <p>$100</p>
+                <button>Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="mailto:contact@apexboosting.com" method="POST" enctype="text/plain">
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Apex Boosting Services. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
